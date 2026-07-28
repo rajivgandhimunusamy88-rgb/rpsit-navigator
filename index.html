@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RPSIT Smart Navigation</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header>
+<h1>R P SARATHY INSTITUTE OF TECHNOLOGY</h1>
+<p>Smart College Navigation</p>
+</header>
+
+<div class="container">
+
+<div class="left">
+
+<h2>Select Destination</h2>
+
+<button onclick="navigate('Principal Room')">Principal Room</button>
+
+<button onclick="navigate('HOD Room')">HOD Room</button>
+
+<button onclick="navigate('Library')">Library</button>
+
+<button onclick="navigate('Lab')">Computer Lab</button>
+
+<button onclick="navigate('Classroom')">Classroom</button>
+
+<button onclick="navigate('Toilet')">Toilet</button>
+
+</div>
+
+<div class="right">
+
+<img src="map.png" id="map">
+
+<div id="route">
+Waiting for destination...
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
